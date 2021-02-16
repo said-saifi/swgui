@@ -2,6 +2,12 @@
 
 [![GoDevDoc](https://img.shields.io/badge/dev-doc-00ADD8?logo=go)](https://pkg.go.dev/github.com/swaggest/swgui)
 
+## Fork
+
+This fork is not production ready yet, it just updates the v3 directory to use relative paths, which solves the issue where the service is behind a proxy.
+
+## Swagger UI
+
 Package `swgui` (Swagger UI) provides HTTP handler to serve Swagger UI.
 All assets are embedded in Go source code, so just build and run.
 
